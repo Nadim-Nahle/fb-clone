@@ -65,6 +65,9 @@
   width: 100%;
   color: white;
 }
+.login > button:hover{
+  cursor: pointer;
+}
 .login{
   text-align: center;
 }
@@ -75,8 +78,9 @@
   text-align: center;
 
 }
-.reset >h1 :hover{
+.reset.h1 :hover{
   text-decoration: underline;
+  cursor: pointer;
 }
 .signup > button{
   background-color: #42b72a;
@@ -87,6 +91,9 @@
   padding: 0 16px;
   width: 60%;
   color: white;
+  }
+  .signup > button:hover{
+    cursor: pointer;
   }
   .SIGNUP{
     text-align: center;
@@ -102,4 +109,26 @@
 .card{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+.footer{
+  display: flex;;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 35px 80px;
+    color: #8a8d91;
+}
+.content a{
+  color: #8a8d91;
+  font-size: 12px;
+}
+.links{
+  border-top:1px solid #dddfe2;
+}
+.content div{
+  padding: 10px;
 }
