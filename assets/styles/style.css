@@ -1,14 +1,25 @@
 .container{
   display:flex;
   background-color: #f0f2f5;
+  height: 600px;
 }
 
 .left{
   width: 43%;
   padding-top: 170px;
   padding-left: 150px;
+  display: flex;
 }
-.left1 > p{
+.left1{
+  display: flex;
+  flex-direction: column;
+}
+.left2{
+  display: flex;
+  justify-content: center;
+  max-height: 5%;
+}
+.left2 > p{
   font-size: 30px;
   padding-left: 30px;
 }
@@ -88,3 +99,7 @@
   .text > p{
     text-align: centre;
   }
+.card{
+  display: flex;
+  flex-direction: column;
+}
